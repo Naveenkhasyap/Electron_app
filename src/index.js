@@ -28,6 +28,8 @@ function getBTC(){
 }
 getBTC();
 
+setInterval(getBTC,30000)
+
 notifyBtn.addEventListener('click',function(event){
     const modalPath   = path.join('file://',__dirname,'about.html')
     let win = new BrowserWindow({frame:false,transparent:true,alwaysOnTop:true,width:400,heigt:200})
