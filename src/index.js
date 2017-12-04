@@ -11,7 +11,7 @@ var targetPrice =  document.getElementById('targetPrice')
 const notification = {
 title:'BTC alert'  ,
 body:'BTC just beat your target',
-icon:path.join(__dirname+'../assets/images/bitcoin.png')
+icon:path.join(__dirname, '../assets/images/bitcoin.png')
 }
 
 function getBTC(){
