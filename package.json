@@ -17,6 +17,6 @@
     "electron-packager": "^10.1.0"
   },
   "dependencies": {
-    "axios": "^0.17.1"
+    "axios": ">=0.21.1"
   }
 }
